@@ -21,7 +21,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 160))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6545714937))
+OWNER_ID = int(getenv("OWNER_ID", 6571611448))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -38,8 +38,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/XD_N3TWORK")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/XD_BOTX")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_CHOCOLATY_MEHFIL_ll")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "ll_CRUSH_WORLD_ll")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -77,16 +77,16 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/58b2faf0e096d6769dad4.jpg"
+    "START_IMG_URL", ""https://graph.org/file/ec12e52043d74fd2847a3.jpg
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg"
+    "PING_IMG_URL", ""https://graph.org/file/d5c95e671992c4849a7a7.jpg
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/86eb759b32ead328e198a.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/ec12e52043d74fd2847a3.jpg"
+STATS_IMG_URL = "https://graph.org/file/ec12e52043d74fd2847a3.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/48f39202823b358203234.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/4eee6d4a7a1de179ff26d.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/03efec694e41e891b29dc.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/2e1d32e90088e235b9e9c.jpg"
+STREAM_IMG_URL = "https://graph.org/file/2e1d32e90088e235b9e9c.jpg"
 SOUNCLOUD_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
 YOUTUBE_IMG_URL = "https://telegra.ph/file/4dc854f961cd3ce46899b.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
